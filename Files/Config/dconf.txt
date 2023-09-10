@@ -1,0 +1,121 @@
+[io/github/celluloid-player/celluloid]
+autofit-enable=false
+last-folder-enable=true
+mpv-config-enable=false
+mpv-config-file='/home/natalie/.config/celluloid/mpv.conf'
+mpv-input-config-enable=true
+mpv-input-config-file='/home/natalie/.config/mpv/input.conf'
+settings-migrated=true
+use-skip-buttons-for-playlist=true
+
+[io/github/celluloid-player/celluloid/window-state]
+height=265
+loop-playlist=false
+maximized=false
+playlist-width=250
+show-controls=true
+show-playlist=false
+volume=0.80000000000000004
+width=640
+
+enabled-applets=['panel2:right:13:calendar@cinnamon.org:53', 'panel2:center:0:grouped-window-list@cinnamon.org:55', 'panel2:right:9:network@cinnamon.org:56', 'panel2:left:7:notifications@cinnamon.org:57', 'panel2:right:12:power@cinnamon.org:58', 'panel2:right:2:printers@cinnamon.org:59', 'panel2:left:4:removable-drives@cinnamon.org:60', 'panel2:right:8:sound@cinnamon.org:61', 'panel2:right:6:systray@cinnamon.org:62', 'panel2:right:15:user@cinnamon.org:63', 'panel2:left:5:xapp-status@cinnamon.org:64', 'panel2:right:14:separator@cinnamon.org:65', 'panel2:right:7:separator@cinnamon.org:67', 'panel2:left:6:separator@cinnamon.org:68', 'panel2:right:16:cornerbar@cinnamon.org:79', 'panel2:left:0:CinnVIIStarkMenu@NikoKrause:80', 'panel2:right:10:darkMode@linuxedo.com:81', 'panel2:right:5:download-and-upload-speed@cardsurf:82', 'panel2:left:3:kdecapplet@joejoetv:83', 'panel2:right:3:betterlock:84', 'panel2:right:11:qredshift@quintao:85', 'panel2:left:2:workspace-name@willurd:86', 'panel2:right:4:spacer@cinnamon.org:87', 'panel2:left:1:spacer@cinnamon.org:88']
+enabled-desklets=@as []
+enabled-extensions=['slider@mohammad-sn', 'horizontal-osd@berk-karaal', 'smart-panel@mohammad-sn']
+
+panel-edit-mode=false
+panel-launchers=['DEPRECATED']
+panel-zone-icon-sizes='[{"left":22,"center":0,"right":24,"panelId":2}]'
+panel-zone-symbolic-icon-sizes='[{"left":22,"center":28,"right":26,"panelId":2}]'
+panel-zone-text-sizes='[{"left":0,"center":0,"right":0,"panelId":2}]'
+panels-autohide=['1:false', '2:false']
+panels-enabled=['2:0:bottom']
+panels-height=['1:36', '2:38']
+panels-hide-delay=['1:0', '2:0']
+panels-show-delay=['1:0', '2:0']
+show-media-keys-osd='medium'
+window-effect-speed=1
+workspace-expo-view-as-grid=true
+workspace-osd-visible=false
+
+[org/cinnamon/desktop/interface]
+clock-show-date=false
+cursor-blink-time=1200
+cursor-size=24
+cursor-theme='Custom-Capitaine'
+font-name='Ubuntu 11'
+gtk-overlay-scrollbars=true
+gtk-theme='Graphite-Dark-compact'
+gtk-theme-backup='Mint-Y'
+icon-theme='WhiteSur-dark'
+scaling-factor=uint32 0
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[org/cinnamon/sounds]
+close-enabled=false
+login-enabled=true
+logout-enabled=true
+map-enabled=false
+maximize-enabled=false
+minimize-enabled=false
+notification-enabled=true
+notification-file='/usr/share/mint-artwork/sounds/notification.oga'
+plug-file='/usr/share/mint-artwork/sounds/plug.oga'
+switch-enabled=true
+switch-file='/usr/share/mint-artwork/sounds/close.oga'
+tile-file='/usr/share/mint-artwork/sounds/tile.oga'
+unmaximize-enabled=false
+unplug-file='/usr/share/mint-artwork/sounds/unplug.oga'
+
+[org/cinnamon/theme]
+name='Adara-Dark'
+theme-cache-updated=1661147935
+
+[org/gnome/desktop/interface]
+document-font-name='Ubuntu Nerd Font 14'
+monospace-font-name='JetBrainsMono Nerd Font Semi-Bold 14'
+toolkit-accessibility=false
+
+[org/gnome/terminal/legacy]
+default-show-menubar=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(11,1,20)'
+background-transparency-percent=5
+cursor-shape='ibeam'
+default-size-columns=80
+default-size-rows=20
+font='JetBrainsMono Nerd Font 14'
+foreground-color='rgb(157,250,36)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(12,236,221)', 'rgb(12,236,221)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(0,254,170)', 'rgb(252,233,79)', 'rgb(251,255,147)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='profile'
+
+[org/gnome/terminal/legacy/profiles:/legacy]
+default-show-menubar=false
+
+[org/gnome/terminal/legacy/profiles:/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,0,0)'
+background-transparency-percent=10
+cursor-shape='ibeam'
+default-size-columns=85
+font='Monospace 11'
+foreground-color='rgb(127,229,255)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(251,255,41)', 'rgb(143,255,111)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(194,69,255)', 'rgb(252,233,79)', 'rgb(255,255,255)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='profile'
+
+[org/nemo/extensions/nemo-terminal]
+default-terminal-height=11
+default-visible=true
+terminal-position='bottom'
+terminal-shell='gnome-terminal'

@@ -1,0 +1,14 @@
+{
+    "uuid": "horizontal-osd@berk-karaal",
+    "name": "Horizontal OSD",
+    "author": "berk-karaal",
+    "version": "0.0.2",
+    "description": "Horizontal and customizable OSDs",
+    "url": "https://github.com/berk-karaal/cinnamon-horizontal-osd",
+    "website": "https://github.com/berk-karaal/cinnamon-horizontal-osd",
+    "cinnamon-version": [
+        "5.2",
+        "5.4"
+    ],
+    "last-edited": 1664120402
+}

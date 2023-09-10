@@ -1,0 +1,10 @@
+{
+    "uuid": "CinnVIIStarkMenu@NikoKrause",
+    "name": "CinnVIIStarkMenu",
+    "description": "Cinnamon Menu with the look of the Windows 7 Start Menu or the MATE Menu",
+    "version": 1.32,
+    "max-instances": -1,
+    "multiversion": true,
+    "author": "fredcw",
+    "last-edited": 1688851536
+}
