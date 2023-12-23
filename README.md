@@ -51,12 +51,24 @@ chmod +x script.sh
 
 - Custom Neofetch Theme
 
-
+![](https://github.com/abhishekmallav/Mint-Remix/blob/main/Preview/taskar.png)
 
 #### Light Theme
+
+![](https://github.com/abhishekmallav/Mint-Remix/blob/main/Preview/light.png)
+
+---
+
+#### Dark Theme
+
+![](https://github.com/abhishekmallav/Mint-Remix/blob/main/Preview/dark.png)
 
 
 
 ---
 
-#### Dark Theme
+![](https://github.com/abhishekmallav/Mint-Remix/blob/main/Preview/desktop.png)
+
+
+
+To install the conky theme visit ** [vistar-theme]([GitHub - abhishekmallav/Conky-Themes: conky theme for linux](https://github.com/abhishekmallav/Conky-Themes)) **
