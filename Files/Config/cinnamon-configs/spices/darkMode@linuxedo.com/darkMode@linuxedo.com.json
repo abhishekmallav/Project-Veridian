@@ -66,7 +66,7 @@
         "type": "switch",
         "description": "Dark mode",
         "default": false,
-        "value": true
+        "value": false
     },
     "enable_auto_mode_switch": {
         "type": "switch",
@@ -108,14 +108,12 @@
         "type": "combobox",
         "default": "none",
         "options": {
+            "Fluent-compact": "Fluent-compact",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Adwaita": "Adwaita",
             "Adwaita-dark": "Adwaita-dark",
             "Fluent-Dark-compact": "Fluent-Dark-compact",
-            "Fluent-compact": "Fluent-compact",
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
             "HighContrast": "HighContrast",
-            "Kripton": "Kripton",
             "Lavanda-Sea": "Lavanda-Sea",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
@@ -137,26 +135,22 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Window control theme",
-        "value": "Graphite-compact"
+        "value": "Lavanda-Sea"
     },
     "dark_gtk_theme": {
         "type": "combobox",
         "default": "none",
         "options": {
+            "Fluent-compact": "Fluent-compact",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Adwaita": "Adwaita",
             "Adwaita-dark": "Adwaita-dark",
             "Fluent-Dark-compact": "Fluent-Dark-compact",
-            "Fluent-compact": "Fluent-compact",
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
             "HighContrast": "HighContrast",
-            "Kripton": "Kripton",
             "Lavanda-Sea": "Lavanda-Sea",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
@@ -178,21 +172,17 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Window control theme",
-        "value": "Graphite-Dark-compact"
+        "value": "Otis-forest"
     },
     "light_win_border_theme": {
         "type": "combobox",
         "default": "none",
         "options": {
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
-            "Kripton": "Kripton",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Lavanda-Sea": "Lavanda-Sea",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
@@ -204,21 +194,17 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Window border theme",
-        "value": "Graphite-compact"
+        "value": "Otis-forest"
     },
     "dark_win_border_theme": {
         "type": "combobox",
         "default": "none",
         "options": {
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
-            "Kripton": "Kripton",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Lavanda-Sea": "Lavanda-Sea",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
@@ -230,24 +216,20 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Window border theme",
-        "value": "Graphite-Dark-compact"
+        "value": "Otis-forest"
     },
     "light_cinnamon_theme": {
         "type": "combobox",
         "default": "none",
         "options": {
+            "Fluent-compact": "Fluent-compact",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Adara-Dark": "Adara-Dark",
             "Fluent-Dark-compact": "Fluent-Dark-compact",
-            "Fluent-compact": "Fluent-compact",
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
-            "Kripton": "Kripton",
             "Lavanda-Sea": "Lavanda-Sea",
             "Linux Mint": "Linux Mint",
             "Mint-Y": "Mint-Y",
@@ -270,10 +252,8 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Desktop theme",
         "value": "Adara-Dark"
@@ -282,12 +262,10 @@
         "type": "combobox",
         "default": "none",
         "options": {
+            "Fluent-compact": "Fluent-compact",
+            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
             "Adara-Dark": "Adara-Dark",
             "Fluent-Dark-compact": "Fluent-Dark-compact",
-            "Fluent-compact": "Fluent-compact",
-            "Graphite-Dark-compact": "Graphite-Dark-compact",
-            "Graphite-compact": "Graphite-compact",
-            "Kripton": "Kripton",
             "Lavanda-Sea": "Lavanda-Sea",
             "Linux Mint": "Linux Mint",
             "Mint-Y": "Mint-Y",
@@ -310,10 +288,8 @@
             "Mint-Y-Red": "Mint-Y-Red",
             "Mint-Y-Sand": "Mint-Y-Sand",
             "Mint-Y-Teal": "Mint-Y-Teal",
-            "Otis-Forest": "Otis-Forest",
-            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid",
-            "WhiteSur-Light-solid": "WhiteSur-Light-solid",
-            "Graphite": "Graphite"
+            "Otis-Forest": "Otis-forest",
+            "WhiteSur-Dark-solid": "WhiteSur-Dark-solid"
         },
         "description": "Desktop theme",
         "value": "Adara-Dark"
@@ -322,10 +298,6 @@
         "type": "combobox",
         "default": "none",
         "options": {
-            "Colloid": "Colloid",
-            "Colloid-dark": "Colloid-dark",
-            "Colloid-light": "Colloid-light",
-            "MoreWaita": "MoreWaita",
             "default": "default",
             "hicolor": "hicolor",
             "0-icons": "0-icons",
@@ -333,12 +305,15 @@
             "Adwaita": "Adwaita",
             "Breeze_Snow": "Breeze_Snow",
             "Capitaine": "Capitaine",
+            "Colloid": "Colloid",
+            "Colloid-dark": "Colloid-dark",
+            "Colloid-light": "Colloid-light",
             "Custom-Capitaine": "Custom-Capitaine",
             "Fluent": "Fluent",
+            "Fluent-Adwaita": "Fluent-Adwaita",
+            "Fluent-Styish": "Fluent-Styish",
             "Fluent-dark": "Fluent-dark",
             "HighContrast": "HighContrast",
-            "Inverse-Stylish": "Inverse-Stylish",
-            "Inverse-Stylish-Adwaita": "Inverse-Stylish-Adwaita",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
             "Mint-Y-Blue": "Mint-Y-Blue",
@@ -364,6 +339,8 @@
             "breeze_cursors": "breeze_cursors",
             "elementary": "elementary",
             "gnome": "gnome",
+            "kora": "kora",
+            "kora-pgrey": "kora-pgrey",
             "locolor": "locolor",
             "ubuntu-mono-dark": "ubuntu-mono-dark",
             "ubuntu-mono-light": "ubuntu-mono-light"
@@ -375,10 +352,6 @@
         "type": "combobox",
         "default": "none",
         "options": {
-            "Colloid": "Colloid",
-            "Colloid-dark": "Colloid-dark",
-            "Colloid-light": "Colloid-light",
-            "MoreWaita": "MoreWaita",
             "default": "default",
             "hicolor": "hicolor",
             "0-icons": "0-icons",
@@ -386,12 +359,15 @@
             "Adwaita": "Adwaita",
             "Breeze_Snow": "Breeze_Snow",
             "Capitaine": "Capitaine",
+            "Colloid": "Colloid",
+            "Colloid-dark": "Colloid-dark",
+            "Colloid-light": "Colloid-light",
             "Custom-Capitaine": "Custom-Capitaine",
             "Fluent": "Fluent",
+            "Fluent-Adwaita": "Fluent-Adwaita",
+            "Fluent-Styish": "Fluent-Styish",
             "Fluent-dark": "Fluent-dark",
             "HighContrast": "HighContrast",
-            "Inverse-Stylish": "Inverse-Stylish",
-            "Inverse-Stylish-Adwaita": "Inverse-Stylish-Adwaita",
             "Mint-Y": "Mint-Y",
             "Mint-Y-Aqua": "Mint-Y-Aqua",
             "Mint-Y-Blue": "Mint-Y-Blue",
@@ -417,6 +393,8 @@
             "breeze_cursors": "breeze_cursors",
             "elementary": "elementary",
             "gnome": "gnome",
+            "kora": "kora",
+            "kora-pgrey": "kora-pgrey",
             "locolor": "locolor",
             "ubuntu-mono-dark": "ubuntu-mono-dark",
             "ubuntu-mono-light": "ubuntu-mono-light"
@@ -462,5 +440,5 @@
         "description": "Internal use",
         "value": -1
     },
-    "__md5__": "fc834ff6d2fbdaac87aaf5a65f3d32ad"
+    "__md5__": "fef6bb2672658445c3119e67fbff9004"
 }

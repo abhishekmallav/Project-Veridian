@@ -18,10 +18,22 @@ show-playlist=false
 volume=0.80000000000000004
 width=640
 
-enabled-applets=['panel2:right:13:calendar@cinnamon.org:53', 'panel2:center:0:grouped-window-list@cinnamon.org:55', 'panel2:right:9:network@cinnamon.org:56', 'panel2:left:7:notifications@cinnamon.org:57', 'panel2:right:12:power@cinnamon.org:58', 'panel2:right:2:printers@cinnamon.org:59', 'panel2:left:4:removable-drives@cinnamon.org:60', 'panel2:right:8:sound@cinnamon.org:61', 'panel2:right:6:systray@cinnamon.org:62', 'panel2:right:15:user@cinnamon.org:63', 'panel2:left:5:xapp-status@cinnamon.org:64', 'panel2:right:14:separator@cinnamon.org:65', 'panel2:right:7:separator@cinnamon.org:67', 'panel2:left:6:separator@cinnamon.org:68', 'panel2:right:16:cornerbar@cinnamon.org:79', 'panel2:left:0:CinnVIIStarkMenu@NikoKrause:80', 'panel2:right:10:darkMode@linuxedo.com:81', 'panel2:right:5:download-and-upload-speed@cardsurf:82', 'panel2:left:3:kdecapplet@joejoetv:83', 'panel2:right:3:betterlock:84', 'panel2:right:11:qredshift@quintao:85', 'panel2:left:2:workspace-name@willurd:86', 'panel2:right:4:spacer@cinnamon.org:87', 'panel2:left:1:spacer@cinnamon.org:88']
+[org/cinnamon]
+alttab-switcher-delay=100
+alttab-switcher-style='thumbnails'
+app-menu-label=''
+desklet-snap-interval=25
+desktop-effects=true
+desktop-effects-close='traditional'
+desktop-effects-map='traditional'
+desktop-effects-maximize=true
+desktop-effects-minimize='traditional'
+device-aliases=['/org/freedesktop/UPower/devices/battery_BAT0:=KillerFrost']
+enabled-applets=['panel2:right:12:calendar@cinnamon.org:53', 'panel2:center:0:grouped-window-list@cinnamon.org:55', 'panel2:right:8:network@cinnamon.org:56', 'panel2:left:8:notifications@cinnamon.org:57', 'panel2:right:11:power@cinnamon.org:58', 'panel2:right:0:printers@cinnamon.org:59', 'panel2:left:4:removable-drives@cinnamon.org:60', 'panel2:right:7:sound@cinnamon.org:61', 'panel2:left:5:systray@cinnamon.org:62', 'panel2:right:14:user@cinnamon.org:63', 'panel2:left:6:xapp-status@cinnamon.org:64', 'panel2:right:13:separator@cinnamon.org:65', 'panel2:right:6:separator@cinnamon.org:67', 'panel2:left:7:separator@cinnamon.org:68', 'panel2:right:15:cornerbar@cinnamon.org:79', 'panel2:left:0:CinnVIIStarkMenu@NikoKrause:80', 'panel2:right:9:darkMode@linuxedo.com:81', 'panel2:right:4:download-and-upload-speed@cardsurf:82', 'panel2:left:3:kdecapplet@joejoetv:83', 'panel2:right:2:betterlock:84', 'panel2:left:2:workspace-name@willurd:86', 'panel2:right:3:spacer@cinnamon.org:87', 'panel2:left:1:spacer@cinnamon.org:88', 'panel2:right:10:qredshift@quintao:90']
 enabled-desklets=@as []
 enabled-extensions=['slider@mohammad-sn', 'horizontal-osd@berk-karaal', 'smart-panel@mohammad-sn']
-
+favorite-apps=['synaptic.desktop', 'mintinstall.desktop', 'org.onlyoffice.desktopeditors.desktop:flatpak', 'com.rafaelmardojai.Blanket.desktop:flatpak', 'notion-app-enhanced.desktop', 'org.gimp.GIMP.desktop:flatpak', 'org.inkscape.Inkscape.desktop:flatpak', 'io.github.shiftey.Desktop.desktop:flatpak', 'code.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'firefox.desktop', 'microsoft-edge.desktop', 'stacer.desktop', 'org.qbittorrent.qBittorrent.desktop', 'xdman.desktop']
+next-applet-id=118
 panel-edit-mode=false
 panel-launchers=['DEPRECATED']
 panel-zone-icon-sizes='[{"left":22,"center":0,"right":24,"panelId":2}]'
@@ -37,6 +49,7 @@ window-effect-speed=1
 workspace-expo-view-as-grid=true
 workspace-osd-visible=false
 
+
 [org/cinnamon/desktop/interface]
 clock-show-date=false
 cursor-blink-time=1200
@@ -44,12 +57,25 @@ cursor-size=24
 cursor-theme='Custom-Capitaine'
 font-name='Ubuntu 11'
 gtk-overlay-scrollbars=true
-gtk-theme='Graphite-Dark-compact'
-gtk-theme-backup='Mint-Y'
+gtk-theme='Fluent-compact'
+gtk-theme-backup='Canta-light'
 icon-theme='WhiteSur-dark'
 scaling-factor=uint32 0
 text-scaling-factor=1.0
 toolkit-accessibility=false
+
+[org/cinnamon/desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+action-scroll-titlebar='shade'
+audible-bell=false
+min-window-opacity=30
+mouse-button-modifier='<Super>'
+num-workspaces=2
+theme='Otis-Forest'
+theme-backup='Otis-forest'
+titlebar-font='Ubuntu Nerd Font Medium 12'
+visual-bell=false
+workspace-names=@as []
 
 [org/cinnamon/sounds]
 close-enabled=false
@@ -75,9 +101,6 @@ theme-cache-updated=1661147935
 document-font-name='Ubuntu Nerd Font 14'
 monospace-font-name='JetBrainsMono Nerd Font Semi-Bold 14'
 toolkit-accessibility=false
-
-[org/gnome/terminal/legacy]
-default-show-menubar=false
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=true
@@ -114,8 +137,76 @@ use-theme-transparency=false
 use-transparent-background=true
 visible-name='profile'
 
+[org/nemo/desktop]
+computer-icon-visible=false
+desktop-layout='true::false'
+font='Ubuntu Nerd Font 11'
+home-icon-visible=true
+trash-icon-visible=true
+volumes-visible=false
+
 [org/nemo/extensions/nemo-terminal]
 default-terminal-height=11
 default-visible=true
 terminal-position='bottom'
 terminal-shell='gnome-terminal'
+
+[org/nemo/icon-view]
+captions=['none', 'size', 'detailed_type']
+
+[org/nemo/list-view]
+default-column-order=['name', 'size', 'detailed_type', 'type', 'date_modified', 'NemoPython::album_column', 'NemoPython::artist_column', 'NemoPython::bitrate_column', 'NemoPython::composer_column', 'date_created_with_time', 'NemoPython::date_column', 'date_accessed', 'date_created', 'NemoPython::description_column', 'NemoPython::exif_datetime_original_column', 'NemoPython::exif_flash_column', 'NemoPython::exif_pixeldimensions_column', 'NemoPython::exif_rating', 'NemoPython::exif_software_column', 'NemoPython::genre_column', 'group', 'NemoPython::pixeldimensions_column', 'NemoPython::length_column', 'where', 'mime_type', 'date_modified_with_time', 'octal_permissions', 'owner', 'NemoPython::pages_column', 'permissions', 'NemoPython::samplerate_column', 'NemoPython::title_column', 'NemoPython::tracknumber_column']
+default-visible-columns=['name', 'size', 'detailed_type', 'type', 'date_modified']
+
+[org/nemo/plugins]
+disabled-actions=@as []
+disabled-extensions=['NemoShare']
+
+[org/nemo/preferences]
+bulk-rename-tool=b'thunar --bulk-rename'
+date-format-monospace=false
+disable-menu-warning=true
+executable-text-activation='display'
+inherit-show-thumbnails=true
+quick-renames-with-pause-in-between=true
+show-hidden-files=false
+show-home-icon-toolbar=true
+show-image-thumbnails='local-only'
+show-location-entry=false
+show-new-folder-icon-toolbar=true
+show-open-in-terminal-toolbar=true
+show-reload-icon-toolbar=true
+show-show-thumbnails-toolbar=true
+show-up-icon-toolbar=false
+size-prefixes='base-2'
+tooltips-in-icon-view=false
+tooltips-in-list-view=true
+tooltips-on-desktop=false
+tooltips-show-access-date=false
+tooltips-show-birth-date=false
+tooltips-show-file-type=true
+tooltips-show-mod-date=false
+tooltips-show-path=false
+
+[org/nemo/preferences/menu-config]
+background-menu-scripts=false
+selection-menu-favorite=false
+selection-menu-open-in-new-window=false
+selection-menu-scripts=false
+
+[org/nemo/search]
+search-content-case-sensitive=true
+search-content-use-regex=true
+search-reverse-sort=false
+search-sort-column='name'
+
+[org/nemo/window-state]
+devices-expanded=false
+geometry='960x1010+0+124'
+maximized=true
+network-expanded=false
+side-pane-view='places'
+sidebar-bookmark-breakpoint=10
+sidebar-width=172
+start-with-menu-bar=false
+start-with-sidebar=true

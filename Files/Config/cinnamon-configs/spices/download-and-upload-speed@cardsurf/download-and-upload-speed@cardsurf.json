@@ -278,7 +278,7 @@
     "checked_interfaces_string": {
         "type": "generic",
         "default": "eth0",
-        "value": "wlp4s0,lo,eno1"
+        "value": "wlp4s0,lo,eno1,vmnet1,vmnet8"
     },
     "unplugged_interfaces_string": {
         "type": "generic",

@@ -633,9 +633,9 @@
             },
             {
                 "checkbox": true,
-                "command": "/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=ferdium --file-forwarding org.ferdium.Ferdium @@u %U @@",
-                "label": "Ferdi",
-                "icon": "org.ferdium.Ferdium"
+                "command": "google-chrome-stable --app=\"https://web.whatsapp.com/\" --class=WebApp-Whatsapp2450 --user-data-dir=/home/natalie/.local/share/ice/profiles/Whatsapp2450",
+                "label": "WhatsApp",
+                "icon": "whatsapp"
             }
         ]
     },

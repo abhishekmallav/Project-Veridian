@@ -49,7 +49,8 @@
             "dev.alextren.Spot",
             "spotify",
             "org.gnome.Music",
-            "io.github.nate_xyz.Resonance"
+            "io.github.nate_xyz.Resonance",
+            "org.kde.haruna"
         ]
     },
     "section2": {

@@ -123,7 +123,7 @@
         "units": "Seconds",
         "step": 1,
         "description": "Update interval",
-        "value": 10.0
+        "value": 10
     },
     "adjustmentMethod": {
         "type": "combobox",
@@ -215,7 +215,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 5000
+        "value": 4000
     },
     "dayBrightness": {
         "type": "spinbutton",
@@ -235,7 +235,7 @@
         "units": "",
         "step": 0.01,
         "description": "Gamma",
-        "value": 1.25
+        "value": 1
     },
     "enabledNight": {
         "type": "checkbox",
@@ -278,8 +278,8 @@
             "s": 0
         },
         "value": {
-            "h": 19,
-            "m": 30,
+            "h": 18,
+            "m": 15,
             "s": 0
         }
     },
@@ -307,7 +307,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 3500
+        "value": 2250
     },
     "nightBrightness": {
         "type": "spinbutton",
