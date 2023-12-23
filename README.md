@@ -33,9 +33,8 @@ chmod +x script.sh
 
 - WhiteSur Icon Theme
 
-- Custom-Capitaine Icon Theme
+- Custom-Capitaine Cursor Theme
 
-- installed icon theme
 
 #### This script installs
 
