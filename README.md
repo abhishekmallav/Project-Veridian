@@ -71,4 +71,4 @@ chmod +x script.sh
 
 
 
-To install the conky theme visit ** [vistar-theme]([GitHub - abhishekmallav/Conky-Themes: conky theme for linux](https://github.com/abhishekmallav/Conky-Themes)) **
+To install the conky theme visit [vistar-theme]([GitHub - abhishekmallav/Conky-Themes: conky theme for linux](https://github.com/abhishekmallav/Conky-Themes))
