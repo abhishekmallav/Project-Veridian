@@ -1,6 +1,6 @@
-# Mint-Remix
+# Project-Veridian
 
-## Mint Remix is a customization script for Linux Mint
+## Veridian is a customization script for Linux Mint
 
 To install just run the script
 
