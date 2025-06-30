@@ -1,6 +1,6 @@
-# Project-Veridian
+# Tattva Mint
 
-## Veridian is a customization script for Linux Mint
+## Tattva Mint is a customization script for Linux Mint
 
 To install just run the script
 
